@@ -20,6 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1156455862
+ModificationTime: 1727032462
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -157,7 +158,11 @@ GaspTable: 3 8 2 17 1 65535 3 0
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
+DisplaySize: -72
+AntiAlias: 1
+FitToEm: 0
 ExtremaBound: 50
+WinInfo: 1612 26 10
 BeginPrivate: 9
 BlueValues 47 [-12 0 429 442 460 472 600 610 645 658 688 698]
 OtherBlues 11 [-238 -227]
@@ -21776,18 +21781,18 @@ StartChar: quoteleft
 Encoding: 1757 8216 1050
 Width: 268
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-139 507 m 0
- 99 507 73 546 73 606 c 0
- 73 676 131 724 191 735 c 1
- 198 728 200 721 200 711 c 1
- 148 698 112 652 112 631 c 0
- 112 608 129 602 148 600 c 1
- 166 597 192 587.5 192 556 c 0
- 192 528 170 507 139 507 c 0
+139 430 m 0
+ 99 430 73 469 73 529 c 0
+ 73 599 131 647 191 658 c 1
+ 198 651 200 644 200 634 c 1
+ 148 621 112 575 112 554 c 0
+ 112 531 129 525 148 523 c 1
+ 166 520 192 511 192 479 c 0
+ 192 451 170 430 139 430 c 0
 EndSplineSet
 Colour: ff00ff
 EndChar
@@ -21796,10 +21801,10 @@ StartChar: quoteright
 Encoding: 1758 8217 1051
 Width: 268
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 254 44 N 1 0 0 1 25 603 2
+Refer: 254 44 N 1 0 0 1 25 563 2
 Colour: ff00ff
 EndChar
 
@@ -21818,18 +21823,18 @@ StartChar: quotereversed
 Encoding: 1760 8219 1053
 Width: 268
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-138.3 698 m 0
- 169.3 698 191.3 677 191.3 649 c 0
- 191.3 617.5 165.3 608 147.3 605 c 1
- 128.3 603 111.3 597 111.3 574 c 0
- 111.3 553 145.3 508 197.3 495 c 1
- 200.7 485.1 199.1 475.9 192.3 470 c 1
- 132.3 481 72.3 529 72.3 599 c 0
- 72.3 659 98.3 698 138.3 698 c 0
+138 658 m 0
+ 169 658 191 637 191 609 c 0
+ 191 577 165 568 147 565 c 1
+ 128 563 111 557 111 534 c 0
+ 111 513 145 468 197 455 c 1
+ 200 445 199 436 192 430 c 1
+ 132 441 72 489 72 559 c 0
+ 72 619 98 658 138 658 c 0
 EndSplineSet
 EndChar
 
@@ -21837,11 +21842,11 @@ StartChar: quotedblleft
 Encoding: 1761 8220 1054
 Width: 375
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1050 8216 N 1 0 0 1 -25 1 2
-Refer: 1050 8216 N 1 0 0 1 132 1 2
+Refer: 1050 8216 N 1 0 0 1 -25 0 2
+Refer: 1050 8216 S 1 0 0 1 132 0 2
 Colour: ff00ff
 EndChar
 
@@ -21849,11 +21854,11 @@ StartChar: quotedblright
 Encoding: 1762 8221 1055
 Width: 375
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 254 44 N 1 0 0 1 158 603 2
-Refer: 254 44 N 1 0 0 1 1 603 2
+Refer: 254 44 S 1 0 0 1 158 563 2
+Refer: 254 44 S 1 0 0 1 1 563 2
 Colour: ff00ff
 EndChar
 
@@ -21861,7 +21866,7 @@ StartChar: quotedblbase
 Encoding: 1763 8222 1056
 Width: 375
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1055 8221 N 1 0 0 1 0 -604 2
@@ -21872,7 +21877,7 @@ StartChar: uni201F
 Encoding: 1764 8223 1057
 Width: 373
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1053 8219 N 1 0 0 1 -23 0 2
@@ -22135,7 +22140,7 @@ StartChar: uni204F
 Encoding: 1795 8271 1070
 Width: 219
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1053 8219 N 1 0 0 1 -30 -603 2
@@ -59159,7 +59164,7 @@ EndChar
 StartChar: uniE0F9
 Encoding: 2556 -1 2264
 Width: 623
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1053 8219 N 1 0 0 1 0 0 2
