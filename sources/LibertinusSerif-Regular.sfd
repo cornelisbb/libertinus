@@ -162,7 +162,7 @@ DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
 ExtremaBound: 50
-WinInfo: 11726 26 10
+WinInfo: 11674 26 10
 BeginPrivate: 9
 BlueValues 47 [-12 0 429 442 460 472 600 610 645 658 688 698]
 OtherBlues 11 [-238 -227]
@@ -5280,7 +5280,9 @@ StartChar: quotesingle
 Encoding: 39 39 253
 Width: 190
 GlyphClass: 2
-Flags: HMW
+Flags: W
+HStem: 440 218<79 106>
+VStem: 53 86<501.695 647.98>
 LayerCount: 2
 Fore
 SplineSet
@@ -21781,7 +21783,9 @@ StartChar: quoteleft
 Encoding: 8216 8216 1050
 Width: 268
 GlyphClass: 2
-Flags: HMW
+Flags: W
+HStem: 430 93<113.337 183.404> 634 24<171.458 196.382>
+VStem: 73 39<497.722 590.666>
 LayerCount: 2
 Fore
 SplineSet
@@ -21794,18 +21798,16 @@ SplineSet
  166 520 192 511 192 479 c 0
  192 451 170 430 139 430 c 0
 EndSplineSet
-Colour: ff00ff
 EndChar
 
 StartChar: quoteright
 Encoding: 8217 8217 1051
 Width: 268
 GlyphClass: 2
-Flags: HMW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 254 44 N 1 0 0 1 25 563 2
-Colour: ff00ff
 EndChar
 
 StartChar: quotesinglbase
@@ -21816,14 +21818,15 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 254 44 N 1 0 0 1 25 0 2
-Colour: ff00ff
 EndChar
 
 StartChar: quotereversed
 Encoding: 8219 8219 1053
 Width: 268
 GlyphClass: 2
-Flags: HMW
+Flags: W
+HStem: 430 25<167.675 197.023> 565 93<112.337 182.404>
+VStem: 72 39<496.805 590.278>
 LayerCount: 2
 Fore
 SplineSet
@@ -21842,47 +21845,47 @@ StartChar: quotedblleft
 Encoding: 8220 8220 1054
 Width: 375
 GlyphClass: 2
-Flags: HMW
+Flags: W
+HStem: 430 93<88.3366 158.404 245.337 315.404> 634 24<146.458 171.382 303.458 328.382>
+VStem: 48 39<497.722 590.666> 205 39<497.722 590.666>
 LayerCount: 2
 Fore
 Refer: 1050 8216 N 1 0 0 1 -25 0 2
 Refer: 1050 8216 S 1 0 0 1 132 0 2
-Colour: ff00ff
 EndChar
 
 StartChar: quotedblright
 Encoding: 8221 8221 1055
 Width: 375
 GlyphClass: 2
-Flags: HMW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 254 44 S 1 0 0 1 158 563 2
 Refer: 254 44 S 1 0 0 1 1 563 2
-Colour: ff00ff
 EndChar
 
 StartChar: quotedblbase
 Encoding: 8222 8222 1056
 Width: 375
 GlyphClass: 2
-Flags: HMW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 1055 8221 N 1 0 0 1 0 -604 2
-Colour: ff00ff
 EndChar
 
 StartChar: uni201F
 Encoding: 8223 8223 1057
 Width: 373
 GlyphClass: 2
-Flags: HMW
+Flags: W
+HStem: 430 25<144.675 174.023 300.675 330.023> 565 93<89.3366 159.404 245.337 315.404>
+VStem: 49 39<496.805 590.278> 205 39<496.805 590.278>
 LayerCount: 2
 Fore
 Refer: 1053 8219 N 1 0 0 1 -23 0 2
 Refer: 1053 8219 N 1 0 0 1 133 0 2
-Colour: ff00ff
 EndChar
 
 StartChar: dagger
@@ -75391,7 +75394,8 @@ StartChar: uni2E3A
 Encoding: 11834 11834 2731
 Width: 1406
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 238 49<39.985 1358.37>
 LayerCount: 2
 Fore
 SplineSet
@@ -75409,7 +75413,8 @@ StartChar: uni2E3B
 Encoding: 11835 11835 2732
 Width: 2070
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 238 49<42.4776 2020.06>
 LayerCount: 2
 Fore
 SplineSet
