@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1155510122
-ModificationTime: 1727035255
+ModificationTime: 1727095344
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -158,7 +158,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1664 26 10
+WinInfo: 0 26 10
 BeginPrivate: 9
 BlueValues 47 [-12 1 429 442 460 474 567 578 645 658 688 698]
 OtherBlues 11 [-238 -227]
@@ -5678,17 +5678,17 @@ StartChar: quotesingle
 Encoding: 39 39 254
 Width: 190
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-154 426 m 1
- 154 426 156 585 158 594 c 0
- 161 616 188 644 218 644 c 0
- 240 644 247 631 247 618 c 0
- 247 615 247 613 247 611 c 0
- 244 595 182 430 182 430 c 1
- 154 426 l 1
+154 427 m 5
+ 154 427 156 586 158 595 c 4
+ 161 617 188 645 218 645 c 4
+ 240 645 247 632 247 619 c 4
+ 247 616 247 614 247 612 c 4
+ 244 596 182 431 182 431 c 5
+ 154 427 l 5
 EndSplineSet
 EndChar
 

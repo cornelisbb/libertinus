@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1156455862
-ModificationTime: 1727032462
+ModificationTime: 1727083394
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -162,7 +162,7 @@ DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
 ExtremaBound: 50
-WinInfo: 1612 26 10
+WinInfo: 546 26 10
 BeginPrivate: 9
 BlueValues 47 [-12 0 429 442 460 472 600 610 645 658 688 698]
 OtherBlues 11 [-238 -227]
@@ -336,7 +336,7 @@ StartChar: quotedbl
 Encoding: 2 34 1
 Width: 336
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 253 39 N 1 0 0 1 10 0 2
@@ -5280,16 +5280,16 @@ StartChar: quotesingle
 Encoding: 7 39 253
 Width: 190
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-79 426 m 1
- 79 426 53 585 53 594 c 0
- 53 616 74 644 104 644 c 0
- 130 644 139 627 139 611 c 0
- 139 595 106 430 106 430 c 1
- 79 426 l 1
+79 440 m 5
+ 79 440 53 599 53 608 c 4
+ 53 630 74 658 104 658 c 4
+ 130 658 139 641 139 625 c 4
+ 139 609 106 444 106 444 c 5
+ 79 440 l 5
 EndSplineSet
 EndChar
 
@@ -32800,7 +32800,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 1427 787 N 1 0 0 1 340 -17 2
-Refer: 1427 787 N 1 0 0 1 185 -19 2
+Refer: 1427 787 S 1 0 0 1 185 -19 2
 Colour: ff00ff
 EndChar
 

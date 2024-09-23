@@ -3,6 +3,7 @@ FontName: LibertinusSans-Italic
 FullName: Libertinus Sans Italic
 FamilyName: Libertinus Sans
 Weight: Regular
+Copyright: 
 UComments: "2003-08-29: Created.+AAoA-2004-07-25: v(1.0) release candidate+AAoA-2005-12-28: v(1.1.0) stable+AAoA-2006-01-01: v(2.0.0) stable+AAoA-2006-09-05: v(2.2.0) stable+AAoA-2006-12-04: v(2.3.0) stable+AAoA-2007-03-11: v(2.4.0) stable+AAoA-2007-12-00: v(2.7.0) stable+AAoA-2008-06-00: v(2.8.14) stable+AAoA"
 Version: 1.1.3
 ItalicAngle: -12
@@ -20,6 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1156455862
+ModificationTime: 1727096924
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -152,6 +154,10 @@ GaspTable: 3 8 2 17 1 65535 3 0
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL For New Fonts
+DisplaySize: -72
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 0 26 10
 BeginPrivate: 9
 BlueValues 47 [-12 0 429 442 460 474 568 578 645 658 688 698]
 OtherBlues 11 [-238 -227]
@@ -307,7 +313,7 @@ StartChar: quotedbl
 Encoding: 34 34 1
 Width: 336
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -6945,16 +6951,16 @@ StartChar: quotesingle
 Encoding: 39 39 253
 Width: 190
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-169.5 426 m 1
- 169.5 426 177.4 585 179.3 594 c 0
- 184 616 210.9 644 240.9 644 c 0
- 266.9 644 272.3 627 268.9 611 c 0
- 265.5 595 197.4 430 197.4 430 c 1
- 169.5 426 l 1
+172.48046875 440 m 5
+ 172.48046875 440 180.379882812 599 182.280273438 608 c 4
+ 186.98046875 630 213.879882812 658 243.879882812 658 c 4
+ 269.879882812 658 275.280273438 641 271.879882812 625 c 4
+ 268.48046875 609 200.379882812 444 200.379882812 444 c 5
+ 172.48046875 440 l 5
 EndSplineSet
 EndChar
 
@@ -28644,20 +28650,18 @@ StartChar: quoteleft
 Encoding: 8216 8216 1050
 Width: 268
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-313.6 558 m 1
- 312.8 554 l 1
- 297.9 527.5 280.2 512.2 247.3 500 c 1
- 243.3 500 l 1
- 209.9 513.1 187.8 540.2 201.6 605 c 0
- 216.5 675 286.9 724 349.2 735 c 1
- 354.7 729.1 354.4 719.9 348.9 710 c 1
- 294.1 697 250.6 652 246.1 631 c 0
- 240.9 606.5 257.1 605 269.6 605 c 1
- 299.4 598 312 591.5 313.6 558 c 1
+306.759765625 481 m 0
+ 306.759765625 450 277.759765625 431 247.759765625 431 c 0
+ 216.759765625 431 193.759765625 455 193.759765625 495 c 0
+ 193.759765625 547 221.759765625 637 337.759765625 658 c 1
+ 345.759765625 652 347.759765625 644 345.759765625 635 c 1
+ 292.759765625 623 241.759765625 576 241.759765625 548 c 0
+ 241.759765625 530 256.759765625 526 272.759765625 522 c 0
+ 291.759765625 517 306.759765625 505 306.759765625 481 c 0
 EndSplineSet
 Colour: ff00ff
 EndChar
@@ -28666,21 +28670,10 @@ StartChar: quoteright
 Encoding: 8217 8217 1051
 Width: 268
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-210.5 647 m 1
- 211.4 651 l 1
- 226.3 677.5 244 692.8 276.9 705 c 1
- 280.9 705 l 1
- 314.3 691.9 336.3 664.8 322.5 600 c 0
- 307.6 530 237.2 481 174.9 470 c 1
- 169.4 475.9 169.7 485.1 175.2 495 c 1
- 230 508 273.5 553 278 574 c 0
- 283.2 598.5 267 600 254.5 600 c 1
- 224.7 607 212.1 613.5 210.5 647 c 1
-EndSplineSet
+Refer: 254 44 S 1 0 0 1 132 556 2
 Colour: ff00ff
 EndChar
 
@@ -28710,20 +28703,18 @@ StartChar: quotereversed
 Encoding: 8219 8219 1053
 Width: 268
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-331.5 647 m 1
- 315.6 613.5 300.2 607 267.5 600 c 1
- 255 600 238.2 598.5 233 574 c 0
- 228.5 553 253 508 302.2 495 c 1
- 303.5 485.1 299.9 475.9 291.9 470 c 1
- 234.2 481 184.6 530 199.5 600 c 0
- 213.3 664.8 246.9 691.9 285.9 705 c 1
- 289.9 705 l 1
- 317.5 692.8 328.8 677.5 332.4 651 c 1
- 331.5 647 l 1
+271.759765625 658 m 4
+ 298.759765625 658 315.759765625 642 315.759765625 619 c 4
+ 315.759765625 607 310.759765625 573 261.759765625 565 c 5
+ 234.759765625 562 218.759765625 549 218.759765625 529 c 4
+ 218.759765625 507 243.759765625 467 289.759765625 455 c 5
+ 290.759765625 445 287.759765625 436 279.759765625 430 c 5
+ 228.759765625 440 182.759765625 479 182.759765625 536 c 4
+ 182.759765625 584 216.759765625 658 271.759765625 658 c 4
 EndSplineSet
 EndChar
 
@@ -28731,11 +28722,11 @@ StartChar: quotedblleft
 Encoding: 8220 8220 1054
 Width: 375
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1050 8216 N 1 0 0 1 -24.8 1 2
-Refer: 1050 8216 N 1 0 0 1 132.2 1 2
+Refer: 1050 8216 N 1 0 0 1 -41.5 0 2
+Refer: 1050 8216 N 1 0 0 1 132.5 0 2
 Colour: ff00ff
 EndChar
 
@@ -28743,11 +28734,11 @@ StartChar: quotedblright
 Encoding: 8221 8221 1055
 Width: 375
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1051 8217 N 1 0 0 1 133 0 2
-Refer: 1051 8217 N 1 0 0 1 -24 0 2
+Refer: 254 44 S 1 0 0 1 289.28 556 2
+Refer: 254 44 S 1 0 0 1 115.28 556 2
 Colour: ff00ff
 EndChar
 
@@ -28755,7 +28746,7 @@ StartChar: quotedblbase
 Encoding: 8222 8222 1056
 Width: 375
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1055 8221 N 1 0 0 1 -128.4 -604 2
@@ -28766,11 +28757,11 @@ StartChar: uni201F
 Encoding: 8223 8223 1057
 Width: 373
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1053 8219 N 1 0 0 1 -23 0 2
 Refer: 1053 8219 N 1 0 0 1 133 0 2
+Refer: 1053 8219 S 1 0 0 1 -23 0 2
 Colour: ff00ff
 EndChar
 
@@ -67437,7 +67428,7 @@ EndChar
 StartChar: uniE0F9
 Encoding: 1114274 -1 2265
 Width: 623
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -67469,7 +67460,7 @@ EndChar
 StartChar: uniE0FB
 Encoding: 1114275 -1 2266
 Width: 640
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1051 8217 N 1 0 0 1 0 0 2
