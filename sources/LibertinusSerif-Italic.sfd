@@ -20,6 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1155510122
+ModificationTime: 1727095344
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -153,6 +154,10 @@ LangName: 1033 "" "" "" "" "" "" "" "" "Caleb Maclennan" "Philipp H. Poll, Khale
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL For New Fonts
+DisplaySize: -72
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 9672 26 10
 BeginPrivate: 9
 BlueValues 47 [-12 1 429 442 460 474 567 578 645 658 688 698]
 OtherBlues 11 [-238 -227]
@@ -5672,17 +5677,17 @@ StartChar: quotesingle
 Encoding: 39 39 254
 Width: 190
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-154 426 m 1
- 154 426 156 585 158 594 c 0
- 161 616 188 644 218 644 c 0
- 240 644 247 631 247 618 c 0
- 247 615 247 613 247 611 c 0
- 244 595 182 430 182 430 c 1
- 154 426 l 1
+154 427 m 5
+ 154 427 156 586 158 595 c 4
+ 161 617 188 645 218 645 c 4
+ 240 645 247 632 247 619 c 4
+ 247 616 247 614 247 612 c 4
+ 244 596 182 431 182 431 c 5
+ 154 427 l 5
 EndSplineSet
 EndChar
 
@@ -26435,18 +26440,18 @@ StartChar: quoteleft
 Encoding: 8216 8216 1051
 Width: 268
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-321 549 m 0
- 321 518 292 499 262 499 c 0
- 231 499 208 523 208 563 c 0
- 208 615 236 705 352 726 c 1
- 359.8 719.7 362.7 712 360.5 703 c 1
- 307.5 691 256 644 256 616 c 0
- 256 598 271 594 287 590 c 0
- 306 585 321 573 321 549 c 0
+304 468 m 0
+ 304 437 275 418 245 418 c 0
+ 214 418 191 442 191 482 c 0
+ 191 534 219 624 335 645 c 1
+ 343 639 345 631 343 622 c 1
+ 290 610 239 563 239 535 c 0
+ 239 517 254 513 270 509 c 0
+ 289 504 304 492 304 468 c 0
 EndSplineSet
 EndChar
 
@@ -26454,10 +26459,10 @@ StartChar: quoteright
 Encoding: 8217 8217 1052
 Width: 268
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 255 44 N 1 0 0 1 141 603 2
+Refer: 255 44 S 1 0 0 1 130 550 2
 EndChar
 
 StartChar: quotesinglbase
@@ -26474,18 +26479,18 @@ StartChar: quotereversed
 Encoding: 8219 8219 1054
 Width: 268
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-280 698 m 0
- 307 698 324.1 682 324.1 659.4 c 0
- 324.1 647 319 612.7 270 605 c 1
- 242.8 602.1 227.6 588.9 227.6 569.3 c 0
- 227.6 546.9 252.4 507.1 298 495 c 1
- 299 485 296 476 288 470 c 1
- 236.7 479.7 191.6 518.4 191.6 575.7 c 0
- 191.6 624 224.6 698 280 698 c 0
+269 645 m 4
+ 296 645 313 629 313 606 c 4
+ 313 594 308 560 259 552 c 5
+ 232 549 216 536 216 516 c 4
+ 216 494 241 454 287 442 c 5
+ 288 432 285 423 277 417 c 5
+ 226 427 180 466 180 523 c 4
+ 180 571 214 645 269 645 c 4
 EndSplineSet
 EndChar
 
@@ -26493,7 +26498,7 @@ StartChar: quotedblleft
 Encoding: 8220 8220 1055
 Width: 375
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1051 8216 N 1 0 0 1 -41.5 0 2
@@ -26504,18 +26509,18 @@ StartChar: quotedblright
 Encoding: 8221 8221 1056
 Width: 375
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 255 44 N 1 0 0 1 298.8 603 2
-Refer: 255 44 N 1 0 0 1 124.8 603 2
+Refer: 255 44 S 1 0 0 1 288 550 2
+Refer: 255 44 S 1 0 0 1 114 550 2
 EndChar
 
 StartChar: quotedblbase
 Encoding: 8222 8222 1057
 Width: 375
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1056 8221 N 1 0 0 1 -133.9 -604 2
@@ -26525,11 +26530,11 @@ StartChar: uni201F
 Encoding: 8223 8223 1058
 Width: 373
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1054 8219 N 1 0 0 1 133 0 2
-Refer: 1054 8219 N 1 0 0 1 -23 0 2
+Refer: 1054 8219 S 1 0 0 1 -23 0 2
 EndChar
 
 StartChar: dagger
@@ -65540,7 +65545,7 @@ EndChar
 StartChar: uniE0F9
 Encoding: 1114277 -1 2118
 Width: 623
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1054 8219 N 1 0 0 1 378 2 2

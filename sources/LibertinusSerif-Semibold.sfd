@@ -20,6 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1156455862
+ModificationTime: 1727032817
 PfmFamily: 17
 TTFWeight: 600
 TTFWidth: 5
@@ -94,8 +95,13 @@ KernClass2: 22 20 "'kern' Kerning 1"
 LangName: 1033 "" "" "Regular" "" "" "" "" "" "Caleb Maclennan" "Philipp H. Poll, Khaled Hosny" "" "https://github.com/alerque/libertinus" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1" "https://scripts.sil.org/OFL" "" "Libertinus Serif" "Semibold"
 GaspTable: 3 8 2 17 1 65535 3 0
 Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
+DisplaySize: -72
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 1560 26 10
 BeginPrivate: 6
 BlueValues 47 [-12 1 433 447 460 474 563 580 645 662 690 698]
 OtherBlues 11 [-238 -212]
@@ -20998,18 +21004,18 @@ StartChar: quoteleft
 Encoding: 8216 8216 1050
 Width: 268
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-119 500 m 0
- 84.4 500 56 520 56 608 c 0
- 56 659 106 726 182 739 c 1
- 193.1 731.5 194.2 720.8 189 708 c 1
- 138 695 105 649 105 629 c 0
- 105 607 130 602 139 601 c 0
- 164 596 182 585 182 552 c 0
- 182 523 157 500 119 500 c 0
+119 406 m 0
+ 84 406 56 426 56 514 c 0
+ 56 565 106 632 182 645 c 1
+ 193 637 194 627 189 614 c 1
+ 138 601 105 555 105 535 c 0
+ 105 513 130 508 139 507 c 0
+ 164 502 182 491 182 458 c 0
+ 182 429 157 406 119 406 c 0
 EndSplineSet
 EndChar
 
@@ -21017,10 +21023,10 @@ StartChar: quoteright
 Encoding: 8217 8217 1051
 Width: 268
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 254 44 N 1 0 0 1 25 603 2
+Refer: 254 44 N 1 0 0 1 25 543 2
 EndChar
 
 StartChar: quotesinglbase
@@ -21037,18 +21043,18 @@ StartChar: quotereversed
 Encoding: 8219 8219 1053
 Width: 268
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-119 705 m 0
- 157 705 182 682 182 653 c 0
- 182 620 164 609 139 604 c 0
- 130 603 105 598 105 576 c 0
- 105 556 138 510 189 497 c 1
- 194.2 484.2 193.1 473.5 182 466 c 1
- 101 480 56 546 56 597 c 0
- 56 659.5 77.5 705 119 705 c 0
+119 645 m 0
+ 157 645 182 622 182 593 c 0
+ 182 560 164 549 139 544 c 0
+ 130 543 105 538 105 516 c 0
+ 105 496 138 450 189 437 c 1
+ 194 424 193 414 182 406 c 1
+ 101 420 56 486 56 537 c 0
+ 56 599 77 645 119 645 c 0
 EndSplineSet
 EndChar
 
@@ -21056,29 +21062,29 @@ StartChar: quotedblleft
 Encoding: 8220 8220 1054
 Width: 375
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1050 8216 N 1 0 0 1 -25 1 2
-Refer: 1050 8216 N 1 0 0 1 132 1 2
+Refer: 1050 8216 N 1 0 0 1 -25 0 2
+Refer: 1050 8216 N 1 0 0 1 132 0 2
 EndChar
 
 StartChar: quotedblright
 Encoding: 8221 8221 1055
 Width: 375
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 254 44 N 1 0 0 1 158 603 2
-Refer: 254 44 N 1 0 0 1 1 603 2
+Refer: 254 44 N 1 0 0 1 158 543 2
+Refer: 254 44 N 1 0 0 1 1 543 2
 EndChar
 
 StartChar: quotedblbase
 Encoding: 8222 8222 1056
 Width: 375
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1055 8221 N 1 0 0 1 0 -604 2
@@ -21088,11 +21094,11 @@ StartChar: uni201F
 Encoding: 8223 8223 1057
 Width: 375
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1053 8219 N 1 0 0 1 153 0 2
-Refer: 1053 8219 N 1 0 0 1 -4 0 2
+Refer: 1053 8219 S 1 0 0 1 -4 0 2
 EndChar
 
 StartChar: dagger
@@ -56996,7 +57002,7 @@ EndChar
 StartChar: uniE0F9
 Encoding: 1114266 -1 2203
 Width: 623
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1053 8219 N 1 0 0 1 0 0 2
