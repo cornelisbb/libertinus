@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1155510122
-ModificationTime: 1727095344
+ModificationTime: 1727118431
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -158,7 +158,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 2210 26 10
+WinInfo: 1950 26 10
 BeginPrivate: 9
 BlueValues 47 [-12 1 429 442 460 474 567 578 645 658 688 698]
 OtherBlues 11 [-238 -227]
@@ -73395,6 +73395,7 @@ AnchorPoint: "qubuts" 45 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 1842 1468 N 1 0 0 1 -20 0 2
+Refer: 1855 1492 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: vavdagesh
@@ -73408,6 +73409,7 @@ AnchorPoint: "qubuts" -24 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 1842 1468 N 1 0 0 1 -142 0 2
+Refer: 1856 1493 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: zayindagesh
@@ -73421,6 +73423,7 @@ AnchorPoint: "qubuts" -33 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 1842 1468 N 1 0 0 1 -222 0 2
+Refer: 1857 1494 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: tetdagesh
@@ -73433,8 +73436,8 @@ AnchorPoint: "holem" -11 0 basechar 0
 AnchorPoint: "qubuts" 55 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 1856 1493 N 1 0 0 1 0 0 2
 Refer: 1842 1468 N 1 0 0 1 18 0 2
+Refer: 2445 1496 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: yoddagesh
@@ -73447,8 +73450,8 @@ AnchorPoint: "holem" -40 0 basechar 0
 AnchorPoint: "qubuts" -38 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 1857 1494 N 1 0 0 1 0 0 2
 Refer: 1842 1468 N 1 0 0 1 -167 86 2
+Refer: 2446 1497 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: finalkafdagesh
@@ -73629,6 +73632,7 @@ Width: 285
 LayerCount: 2
 Fore
 Refer: 1839 1465 N 1 0 0 1 0 0 2
+Refer: 1856 1493 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: betrafe
@@ -73680,8 +73684,8 @@ AnchorPoint: "holem" -15 0 basechar 0
 AnchorPoint: "qubuts" 70 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 2421 64324 N 1 0 0 1 0 0 2
 Refer: 1847 1473 N 1 0 0 1 96 0 2
+Refer: 2425 64329 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: shindageshsindot
@@ -73694,8 +73698,8 @@ AnchorPoint: "holem" -86 0 basechar 0
 AnchorPoint: "qubuts" 70 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 2421 64324 N 1 0 0 1 0 0 2
 Refer: 1848 1474 N 1 0 0 1 44 0 2
+Refer: 2425 64329 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniE801
@@ -73704,6 +73708,7 @@ Width: 285
 Flags: W
 LayerCount: 2
 Fore
+Refer: 1856 1493 S 1 0 0 1 0 0 2
 Refer: 1839 1465 N 1 0 0 1 -82 0 2
 EndChar
 
