@@ -1,4 +1,3 @@
-STATICTTF =
 STATICWOFF =
 
 GSUB = sources/features/gsub.fea
@@ -28,18 +27,24 @@ $$(BUILDDIR)/$1-%-instance.otf: $$(BUILDDIR)/$1-%-normalized.sfd $(GSUB) $(BUILD
 
 endef
 
+depend_font = fc-match "$1" family | $(GREP) -qx "$1"
+
 define POSTFONTSHIPEVAL =
 
 $$(DOCSDIR)/preview.pdf: $$(DOCSDIR)/preview.tex | $$(STATICOTFS) $$(BUILDDIR)
 	xelatex --interaction=batchmode -output-directory=$$(BUILDDIR) $$<
 	cp $(BUILDDIR)/$$(@F) $$@
 
+$$(DOCSDIR)/sample.pdf: $$(DOCSDIR)/sample.sil $$(STATICOTFS)
+	$(call depend_font,TeX Gyre Termes)
+	sile -o $$@ -d versions $$<
+
+$$(DOCSDIR)/waterfalls.pdf: $$(DOCSDIR)/waterfalls.sil $$(STATICOTFS)
+	fontproof -o $$@ $$< -- -d versions
+
 endef
 
 _scour_args = --quiet --set-precision=4 --remove-metadata --enable-id-stripping --strip-xml-prolog --strip-xml-space --no-line-breaks --no-renderer-workaround
-
-# Remove when Fontship default changes post v0.9.6
-dist: $$(DISTDIR).tar.zst
 
 preview.svg: $(DOCSDIR)/preview.pdf
 	mutool draw -r 266.66 -F svg $< 1 |
@@ -48,7 +53,7 @@ preview.svg: $(DOCSDIR)/preview.pdf
 
 install-dist: install-dist-$(PROJECT)
 
-install-dist-$(PROJECT): | preview.svg
+install-dist-$(PROJECT): $(DOCSDIR)/sample.pdf $(DOCSDIR)/waterfalls.pdf | preview.svg
 	install -Dm644 -t "$(DISTDIR)/" preview.svg AUTHORS.txt CONTRIBUTING.md CONTRIBUTORS.txt FONTLOG.txt
 	install -Dm644 -t "$(DISTDIR)/$(DOCSDIR)" $(DOCSDIR)/*.pdf $(DOCSDIR)/*.md $(DOCSDIR)/*.css
 
